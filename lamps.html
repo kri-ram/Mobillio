@@ -1,0 +1,136 @@
+<!-- products.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mobillio Product Collection</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="index.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Poppins', sans-serif; background-color: #fff; color: #111; margin: 0; padding: 0; }
+    .product-container { max-width: 1100px; margin: 60px auto; padding: 0 24px; }
+    .product-title { font-size: 32px; font-weight: 600; margin-bottom: 10px; }
+    .product-subtitle { font-size: 18px; color: #666; margin-bottom: 30px; }
+    .product-section { margin-bottom: 80px; }
+    .product-wrapper { display: flex; flex-wrap: wrap; gap: 40px; }
+    .product-image { flex: 1 1 300px; max-width: 300px; border-radius: 8px; }
+    .product-details { flex: 2; min-width: 280px; }
+    .price { font-size: 20px; margin: 20px 0; }
+    .price s { color: #999; margin-right: 10px; }
+    .price strong { color: green; font-weight: 600; }
+    .features, .reviews { margin-top: 30px; }
+    .features ul, .reviews ul { padding-left: 20px; }
+    .features li, .reviews li { margin-bottom: 8px; }
+    .star-rating { color: #efc14c; font-size: 18px; }
+    .section-title { font-size: 20px; font-weight: 600; margin-bottom: 10px; }
+    .product-description { margin-top: 30px; line-height: 1.7; font-size: 16px; color: #333; }
+    .button { margin-top: 40px; display: inline-block; }
+  </style>
+</head>
+<body>
+  <div class="product-container">
+    <h1 class="product-title">Lighting & Decor Collection</h1>
+    <p class="product-subtitle">Browse elegant lamps, decor pieces, plants, and more.</p>
+
+    <!-- Product 1 -->
+    <div class="product-section">
+      <div class="product-wrapper">
+        <img src="https://plus.unsplash.com/premium_photo-1677331152846-59db101e9124?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bGFtcHN8ZW58MHx8MHx8fDA%3D" alt="Modern Lamp" class="product-image" />
+        <div class="product-details">
+          <div class="star-rating">★★★★☆</div>
+          <div class="price"><s>$199</s> <strong>$149</strong></div>
+          <div class="features">
+            <div class="section-title">Key Features</div>
+            <ul>
+              <li>Brushed brass finish with marble base</li>
+              <li>Adjustable neck and head</li>
+              <li>Warm white LED lighting</li>
+              <li>Energy efficient and durable</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="product-description">
+        <div class="section-title">Product Description</div>
+        <p>This modern table lamp combines sleek design with functional lighting. The brushed brass finish and marble base provide a luxurious touch, perfect for your bedside or work desk. Fully adjustable with an integrated LED bulb.</p>
+      </div>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="product-section">
+      <div class="product-wrapper">
+        <img src="https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGxhbXBzfGVufDB8fDB8fHww" alt="Accent Chair" class="product-image" />
+        <div class="product-details">
+          <div class="star-rating">★★★★★</div>
+          <div class="price"><s>$499</s> <strong>$399</strong></div>
+          <div class="features">
+            <div class="section-title">Key Features</div>
+            <ul>
+              <li>Mid-century modern style</li>
+              <li>Soft velvet fabric upholstery</li>
+              <li>Walnut wood legs</li>
+              <li>Ergonomic curved back</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="product-description">
+        <div class="section-title">Product Description</div>
+        <p>Our velvet accent chair is designed to elevate your living space. Featuring a solid wood frame and a supportive curved back, it offers both beauty and comfort. Ideal for reading corners, bedrooms, or home offices.</p>
+      </div>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="product-section">
+      <div class="product-wrapper">
+        <img src="https://rb.gy/s34tjg" alt="Indoor Plant" class="product-image" />
+        <div class="product-details">
+          <div class="star-rating">★★★★☆</div>
+          <div class="price"><s>$59</s> <strong>$39</strong></div>
+          <div class="features">
+            <div class="section-title">Key Features</div>
+            <ul>
+              <li>Natural air-purifying properties</li>
+              <li>Low maintenance and durable</li>
+              <li>Ceramic pot included</li>
+              <li>Perfect for desks or shelves</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="product-description">
+        <div class="section-title">Product Description</div>
+        <p>Add a touch of green to your interior with this easy-to-care-for indoor plant. It thrives in indirect light and comes in a stylish ceramic pot that blends well with modern decor.</p>
+      </div>
+    </div>
+
+    <!-- Product 4 -->
+    <div class="product-section">
+      <div class="product-wrapper">
+        <img src="https://rb.gy/lnim70" alt="Decorative Vase" class="product-image" />
+        <div class="product-details">
+          <div class="star-rating">★★★☆☆</div>
+          <div class="price"><s>$79</s> <strong>$59</strong></div>
+          <div class="features">
+            <div class="section-title">Key Features</div>
+            <ul>
+              <li>Handmade ceramic vase</li>
+              <li>Matte textured finish</li>
+              <li>Perfect for dried flowers or as a standalone decor</li>
+              <li>Available in multiple colors</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="product-description">
+        <div class="section-title">Product Description</div>
+        <p>This artisan vase is an elegant addition to any room. Handmade and uniquely finished, it serves as a beautiful centerpiece or complements other decor items on your shelf or table.</p>
+      </div>
+    </div>
+
+    <a href="shop.html" class="button">← Back to Shop</a>
+  </div>
+</body>
+</html>
